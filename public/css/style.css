@@ -1,0 +1,209 @@
+/* font family outside of css library */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* the whole page, I think XD */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body part */
+body{
+    /* to fix the size of web page */
+    min-height: 100vh;
+    /* mix the color of background */
+    background: linear-gradient(#2b1055, #7597de);
+    /* to hide the things that out of the body part */
+    overflow-x: hidden;
+}
+
+/* header part */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* to put the header to the front */
+    z-index: 1000;
+}
+
+/* logo in header part */
+header .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* ul in the header part */
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* li in the ul of the header part */
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+/* a in the li of the ul of the header part */
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    /* to shape the border of the a */
+    border-radius: 20px;
+}
+
+/* for hover and active of the a */
+header ul li a:hover, 
+header ul li a.active{
+    background: white;
+    color: #2b1055;
+}
+
+/* background-image */
+/* section part */
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    /* put the things in the middle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* hide the things that out of the section */
+    overflow: hidden;
+}
+
+/* what will be seen before the section */
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    /* to put the section to the front */
+    z-index: 1000;
+}
+
+/* img in the section */
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* to not change the pointer when the arrow touch the img */
+    pointer-events: none;
+}
+
+/* the moon in the section */
+section img#moon{
+    mix-blend-mode: screen;
+}
+
+/* the mountain in the section */
+section img#mountains_front{
+    z-index: 10;
+}
+
+/* title in the section */
+#title{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 5.5vw;
+    z-index: 9;
+    /* locate the size of the title to the right */
+    right: -350px;
+}
+
+/* the btn in the section */
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    /* to lower down the btn in the Y degree */
+    transform: translateY(100px);
+}
+
+/* the paragraph in the div */
+.para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+/* the h2 in the paragraph */
+.para h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* the p in the paragraph */
+.para p{
+    font-size: 1em;
+    color: #fff;
+}
+
+footer{
+    background: linear-gradient(#2b1055, #7597de);
+    position: absolute;
+    color: #fff;
+}
+
+.flex-container{
+    display: flex;
+    margin: 20px 30px;
+}
+
+.flex-container > div{
+    margin: 10px;
+    padding: 40px;
+    color:#fff;
+    font-size: 1.1em;
+}
+
+.ftSleep .flex-container .logo a{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ftSleep .flex-container .logo a,
+.ftSleep .flex-container .terms ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.ftSleep .flex-container .image{
+    padding: 25px;
+}
+
+.ftSleep .flex-container .copyright{
+    margin: 20px;
+    padding: 20px;
+}
+.mp3{
+    float: left;
+}
