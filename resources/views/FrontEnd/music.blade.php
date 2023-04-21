@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.ap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/779ad521ad.js" crossorigin="anonymous"></script>
     <style> 
  /* font family outside of css library */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -99,7 +102,7 @@ h1{
      width: 100%;
      justify-content: center;
      align-items: center;
-     margin: 50px 0;
+     margin: 10px 0;
  }
  .content{
      width: 400px;
@@ -139,6 +142,43 @@ h1{
  li{
      padding-top: 5px;
  
+ }
+ .search{
+    width:115%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-conent: center;
+
+ }
+ .search-bar{
+    width: 100%;
+    max-width: 500%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+ }
+ .search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 8px;
+    font-size: 20px;
+    color: #cac7ff;
+ }
+ ::placeholder{
+    color: #cac7ff;
+ }
+ .search-bar button {
+   border: 0;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background: transparent;
+   cursor: pointer;
  }
  .fa{
      font-size: 26px;
@@ -206,6 +246,19 @@ audio {
 <body>
     <header class="nav">
         <a href="#" class="logo">Sleepz</a>
+        <ul> 
+        <li>  <div class ="search" > 
+                <form action="/search" method ="get" class= "search-bar">  
+                    <input type = "text" placeholder ="rain" name= "q" >
+                    <button type = "submit" > 
+                    <i class="fa-solid fa-magnifying-glass" style="font-size: 25px"></i>
+                    </button>
+                    
+                </form>
+                 </div>
+            </li>
+
+        </ul>
         <ul>
             <li><a href="home" class="active nav">Home</a></li>
             <li><a href="music" class="nav">Music</a></li>
@@ -238,6 +291,30 @@ audio {
             <ul>
                   <li> <a href="music4" > 
                 <img src="https://i.pinimg.com/originals/38/ff/3c/38ff3c072ed6552324b1239785e6007a.gif">
+            </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/71/e7/48/71e748cc6fedc700240795d96c564652.gif">
+            </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/da/c2/75/dac275a8c01fabcc5f1fd4b62749402e.gif">
+            </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/38/c4/a0/38c4a0b6bd425279a8f511b71c91dd49.gif">
             </a></li>
                 </ul>
             </div>
@@ -276,11 +353,51 @@ audio {
                 </ul>
             </div>
 
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/7d/07/a2/7d07a255678962d30d8717dcf5dbd266.gif">
+            </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/00/9e/ae/009eaeb601c07d6a15e3d6eeefe3d6b4.gif">
+            </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+            <ul>
+                  <li> <a href="music4" > 
+                <img src="https://i.pinimg.com/originals/1a/f6/89/1af689d42bdb7686df444f22925f9e89.gif">
+            </a></li>
+                </ul>
+            </div>
+
 
 
         </div>
             <!--END PRODUCT-->
     </main>
+    <script> 
+    $(document).ready(function(){
+        $('#search').on('keyup', function(){
+            var query = $(this).val();
+            $.ajex({
+                url:"search",
+                type:"GET",
+                data:{'search':query},
+                success:function(data){
+                    $('#search_list').html(data);
+                }
+
+            })
+        });
+    });
+    </script>
 
     
     <div>

@@ -1,0 +1,6 @@
+@extends('resources.views.auth.login')
+@extends('resources.views.auth.confirm-password')
+@extends('resources.views.auth.forgot-password')
+@extends('resources.views.auth.register')
+@extends('resources.views.auth.reset-password')
+@extends('resources.views.auth.verify-email')

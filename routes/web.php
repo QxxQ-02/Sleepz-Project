@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SoundsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -59,6 +60,11 @@ Route::get('/music6', function () {
 Route::get('/music7', function () {
     return view('/FrontEnd/music7');
 })->name('music7');
+Route::get('/menu', function () {
+    return view('/auth/register');
+})->name('register');
+
+Route::get("search", [SoundsController::class,'search']);
 
 
 

@@ -41,4 +41,13 @@ class TemplateController extends Controller
     public function about(){
         return view('FrontEnd.about');
     }
+
+    public function menu(){
+      return view ('auth.register');
+    }
+
+    public function search(Request $req){
+
+      return $req->input();
+    }
 }

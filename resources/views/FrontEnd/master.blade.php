@@ -267,7 +267,7 @@ footer{
                 <li><a href="music" class="nav">Music</a></li>
                 <li><a href="about" class="nav">About</a></li>
                 <li><a href="contact" class="nav">Contact</a></li>
-                <li><a href="" class ="nav"> <input type = "checkbox" id = "toggle"> </input>
+                <li><a href="menu" class ="nav"> <input type = "checkbox" id = "toggle"> </input>
                                                  <label for="toggle"> &#9776; </label>
         </header>
 

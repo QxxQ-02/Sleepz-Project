@@ -72,25 +72,14 @@ header ul li a.active{
 /* body */
 main{
     position: relative;
-    margin: 50px;
+    width: 100%;
+    height: 100vh;
     padding: 100px;
     background-color: (rgba(89, 89, 133, 0.3),rgba(118, 78, 131, 0.543) );
-    
+    display: flex;
 
 }
 
-.bg{
-    background-size: cover;
-    background-position: relative;
-}
-.img2{
-    margin-top : 20%;
-}
-h1{
-    text-align: center;
-    opacity: 0.6;
-    text-transform: uppercase;
- }
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -132,10 +121,13 @@ img{
     background: linear-gradient(#2b1055, #7597de);
 }
 
+audio {
+    align-items: center;
+}
+
 /* footer */
 footer{
     background: linear-gradient(#2b1055, #7597de);
-   display: flex;
     position: absolute;
     color: #fff;
 }
