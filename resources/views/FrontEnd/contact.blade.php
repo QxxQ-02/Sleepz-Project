@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <style>
         /* font family outside of css library */
@@ -65,7 +64,7 @@ header ul li a{
 }
 
 /* for hover and active of the a */
-header ul li a:hover, 
+header ul li a:hover,
 header ul li a.active{
     background: white;
     color: #2b1055;
@@ -94,7 +93,7 @@ header ul li a.active{
     justify-content: center;
     height: 100%;
 }
-  
+
 .grid {
     background-color: #fff;
     padding: 2.5rem 0;
@@ -102,7 +101,7 @@ header ul li a.active{
     z-index: 10;
     border: 3px solid #fff;
 }
-  
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -116,13 +115,13 @@ header ul li a.active{
 .grid-item3 {
     grid-row: 1/3;
 }
-  
+
 .question-content {
     margin: 5rem;
     align-items: left;
     width: 50%;
 }
-  
+
 .contact-content {
     margin: 5rem;
     align-items: left;
@@ -131,7 +130,7 @@ header ul li a.active{
 
 .message-content > p {
     margin: 0 35%;
-} 
+}
 
 .message-content .input {
     align-items: center;
@@ -142,18 +141,18 @@ header ul li a.active{
     margin-left: auto;
     margin-right: auto;
 }
-  
+
 h2 {
     text-align: center;
     font-weight: 400;
     line-height: 1.2;
     margin: 3rem 0;
 }
-  
+
 h5 {
     font-weight: 600;
 }
-  
+
 p {
     line-height: 1.6;
     display: block;
@@ -162,11 +161,11 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-  
+
 .fill {
     padding-top: 5rem;
 }
-  
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -179,7 +178,7 @@ input[type=text], input[type=password] {
 
 .butt {
     background-color: #fff;
-    color: inear-gradient(#2b1055, #7597de);
+    color: linear-gradient(#2b1055, #7597de);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -187,11 +186,11 @@ input[type=text], input[type=password] {
     align-items: center;
     width: 100%;
 }
-  
+
 .butt:hover {
     opacity: 0.8;
 }
-  
+
 .social> button {
     background-color: #fff;
     padding: 14px 20px;
@@ -267,7 +266,7 @@ footer{
                   <div class="question-content">
                       <h2>FAQs</h2>
                       <p>Here are the questions that we mostly received from our viewers.</p>
-                      <button class="butt"><a href="FAQs.html">VIEW</a></button>
+                      <button class="butt"><a href="faqs">VIEW</a></button>
                   </div>
               </div>
               <div class="content grid-item2">
@@ -287,29 +286,29 @@ footer{
           <div class="content grid-item3">
               <div class="message-content">
                   <h2>Send an Email to Us</h2>
-                  <p>Fill in your informations and we will contact you back.</p>
+                  <p>Fill in your information, and we will contact you back.</p>
                   <div class="fill">
                       <label class="input" for="ftname"><b>FIRST NAME</b></label>
                       <input type="text" placeholder="_______________" name="ftname" required>
-        
+
                       <label class="input" for="ltname"><b>LAST NAME</b></label>
                       <input type="text" placeholder="_______________" name="ltname" required>
 
                       <label class="input" for="email"><b>EMAIL</b></label>
                       <input type="text" placeholder="_______________" name="email" required>
-        
+
                       <label class="input" for="number"><b>PHONE NUMBER</b></label>
                       <input type="text" placeholder="_______________" name="number" required>
 
                       <label class="input" for="job"><b>OCCUPATION</b></label>
                       <input type="text" placeholder="_______________" name="job" required>
-        
+
                       <label class="input" for="location"><b>INSTITUTE</b></label>
                       <input type="text" placeholder="_______________" name="location" required>
 
                       <label class="input" for="type"><b>QUESTION ABOUT</b></label>
                       <input type="text" placeholder="_______________" name="type" required>
-        
+
                       <label class="input" for="mess"><b>MESSAGE</b></label>
                       <input type="text" placeholder="_______________" name="mess" required>
                   </div>
@@ -321,9 +320,9 @@ footer{
       <div class="follow">
           <h2>FOLLOW US ON SOCIAL MEDIA</h2>
           <div class="social">
-              <button><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></button>
+              <button><a href="https://www.facebook.com/profile.php?id=100091654406873"><i class="fa-brands fa-facebook"></i> Facebook</a></button>
               <button><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></button>
-              <button><a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a></button>
+              <button><a href="https://www.youtube.com/@Sleep_z_/featured"><i class="fa-brands fa-youtube"></i> Youtube</a></button>
           </div>
       </div>
     </main>

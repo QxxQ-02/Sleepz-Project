@@ -37,6 +37,10 @@ Route::get('/contact', function () {
     return view('/FrontEnd/contact');
 })->name('contact');
 
+Route::get('/faqs', function () {
+    return view('/FrontEnd/faqs');
+})->name('faqs');
+
 Route::get('/music2', function () {
     return view('/FrontEnd/music2');
 })->name('music2');
