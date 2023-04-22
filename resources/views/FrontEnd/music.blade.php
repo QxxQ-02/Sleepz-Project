@@ -245,7 +245,7 @@ audio {
 </head>
 <body>
     <header class="nav">
-        <a href="#" class="logo">Sleepz</a>
+        <a href="home" class="logo">Sleepz</a>
         <ul> 
         <li>  <div class ="search" > 
                 <form action="/search" method ="get" class= "search-bar">  
@@ -260,8 +260,8 @@ audio {
 
         </ul>
         <ul>
-            <li><a href="home" class="active nav">Home</a></li>
-            <li><a href="music" class="nav">Music</a></li>
+            <li><a href="home" class="nav">Home</a></li>
+            <li><a href="music" class="active nav">Music</a></li>
             <li><a href="about" class="nav">About</a></li>
             <li><a href="contact" class="nav">Contact</a></li>
         </ul>
@@ -404,7 +404,7 @@ audio {
         <footer class="ftSleep">
             <div class="flex-container">
               <div class="logo">
-                <a href="#">Sleep</a>
+                <a href="home">Sleep</a>
               </div>
 
               <div class="adress">
@@ -418,13 +418,13 @@ audio {
               <div class="terms">
                 <ul>
                   <li>
-                    <a href="#">Music</a>
+                    <a href="music">Music</a>
                   </li>
                   <li>
-                    <a href="#">Search</a>
+                    <a href="search">Search</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="contact">Contact</a>
                   </li>
                 </ul>
               </div>
