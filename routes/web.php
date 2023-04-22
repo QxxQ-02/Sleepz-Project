@@ -17,9 +17,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\TemplateController@index');
 
+/* 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+*/
+
+Route::get('/dashboard', function () {
+    return view('/FrontEnd/home');
+})->name('home');
 
 Route::get('/home', function () {
     return view('/FrontEnd/home');
