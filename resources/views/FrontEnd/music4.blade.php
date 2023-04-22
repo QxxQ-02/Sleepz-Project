@@ -5,175 +5,181 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel = "stylesheet" href = "music.css">
     <style> 
       
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+        /* font family outside of css library */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* header part */
-header{
-    background: linear-gradient(#2b1055, #7597de);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* to put the header to the front */
-    z-index: 1000;
-}
+        /* the whole page, I think XD */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
 
-/* logo in header part */
-header .logo{
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+        /* header part */
+        header{
+            background: linear-gradient(#2b1055, #7597de);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* to put the header to the front */
+            z-index: 1000;
+        }
 
-/* ul in the header part */
-header ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        /* logo in header part */
+        header .logo{
+            color: white;
+            text-decoration: none;
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
-/* li in the ul of the header part */
-header ul li{
-    list-style: none;
-    margin-left: 20px;
-}
+        /* ul in the header part */
+        header ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-/* a in the li of the ul of the header part */
-header ul li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    /* to shape the border of the a */
-    border-radius: 20px;
-}
+        /* li in the ul of the header part */
+        header ul li{
+            list-style: none;
+            margin-left: 20px;
+        }
 
-/* for hover and active of the a */
-header ul li a:hover, 
-header ul li a.active{
-    background: white;
-    color: #2b1055;
-}
+        /* a in the li of the ul of the header part */
+        header ul li a{
+            text-decoration: none;
+            padding: 6px 15px;
+            color: #fff;
+            /* to shape the border of the a */
+            border-radius: 20px;
+        }
 
-/* body */
-main{
-    position: relative;
-    margin: 50px;
-    padding: 100px;
-    background-color: (rgba(89, 89, 133, 0.3),rgba(118, 78, 131, 0.543) );
-    
+        /* for hover and active of the a */
+        header ul li a:hover, 
+        header ul li a.active{
+            background: white;
+            color: #2b1055;
+        }
 
-}
+        /* body */
+        main{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            padding: 100px;
+            display: flex;
+            background-color: (rgba(89, 89, 133, 0.3),rgba(118, 78, 131, 0.543) );
+        }
 
-.bg{
-    background-size: cover;
-    background-position: relative;
-}
-.img2{
-    margin-top : 20%;
-}
-h1{
-    text-align: center;
-    opacity: 0.6;
-    text-transform: uppercase;
- }
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    float: left;
-    margin: 50px 0;
-    margin-right: 50px;
-    padding-right: 800px;
-}
-.content-left{
-    width: 600px;
-    margin: 50px;
-    height: 400px;
-    box-sizing: border-box;
+        .bg{
+            background-size: cover;
+            background-position: relative;
+        }
+        .img2{
+            margin-top : 20%;
+        }
+        h1{
+            text-align: center;
+            opacity: 0.6;
+            text-transform: uppercase;
+        }
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            float: left;
+            margin: 50px 0;
+            margin-right: 50px;
+            padding-right: 800px;
+        }
+        .content-left{
+            width: 600px;
+            margin: 50px;
+            height: 400px;
+            box-sizing: border-box;
 
-    float: right;
-    border-radius: 30px;
-    cursor: pointer;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0, 0.22);
-    transition: .4s;
-    background: #f2f2f2;
+            float: right;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0, 0.22);
+            transition: .4s;
+            background: #f2f2f2;
 
-}
-.content:hover{
-    box-shadow: 0 3px 6px rgba(0,0,0, 0.16), 
-    0 3px 6px rgba(0,0,0, 0.23);
-    transform: translate(0px, -8px)
-}
-img{
-    width: 600px;
-    height: 350px;
-    border-radius: 5%;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-}
-.audiplay{
-    background: linear-gradient(#2b1055, #7597de);
-}
+        }
+        .content:hover{
+            box-shadow: 0 3px 6px rgba(0,0,0, 0.16), 
+            0 3px 6px rgba(0,0,0, 0.23);
+            transform: translate(0px, -8px)
+        }
+        .pic1{
+            width: 600px;
+            height: 350px;
+            border-radius: 5%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
 
-/* footer */
-footer{
-    background: linear-gradient(#2b1055, #7597de);
-   display: flex;
-    position: absolute;
-    color: #fff;
-}
-.flex-container{
-    display: flex;
-    margin: 20px 30px;
-}
+        .audiplay{
+            background: linear-gradient(#2b1055, #7597de);
+        }
 
-.flex-container > div{
-    margin: 10px;
-    padding: 40px;
-    color:#fff;
-    font-size: 1.1em;
-}
+        audio {
+            align-items: center;
+        }
 
-.ftSleep .flex-container .logo a{
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+        /* footer */
+        footer{
+            background: linear-gradient(#2b1055, #7597de);
+            position: absolute;
+            width: 100%;
+            left: 0;
+            color: #fff;
+        }
 
-.ftSleep .flex-container .logo a,
-.ftSleep .flex-container .terms ul li a{
-    text-decoration: none;
-    color:#fff;
-}
+        .flex-container{
+            display: flex;
+            margin: 20px 30px;
+        }
 
-.ftSleep .flex-container .image{
-    padding: 25px;
-}
+        .flex-container > div{
+            margin: 10px;
+            padding: 40px;
+            color:#fff;
+            font-size: 1.1em;
+        }
 
-.ftSleep .flex-container .copyright{
-    margin: 20px;
-    padding: 20px;
-}
-audio {
-    align-items: center;
-}
+        .ftSleep .flex-container .logo a{
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .ftSleep .flex-container .logo a,
+        .ftSleep .flex-container .terms ul li a{
+            text-decoration: none;
+            color:#fff;
+        }
+
+        .ftSleep .flex-container .image{
+            padding: 25px;
+        }
+
+        .ftSleep .flex-container .copyright{
+            margin: 20px;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -191,7 +197,7 @@ audio {
         <div class="gallery">
             <div class="content-left">
                 <!--FIRST PRODUCT-->
-                <img src="https://i.pinimg.com/originals/38/ff/3c/38ff3c072ed6552324b1239785e6007a.gif">
+                <img  class="pic1" src="https://i.pinimg.com/originals/38/ff/3c/38ff3c072ed6552324b1239785e6007a.gif">
                 <audio controls class="audiplay"  style ="width:600px; padding-right: 10px; background: linear-gradient(#2b1055, #7597de);">
                     <source
                     src="record.mp3"

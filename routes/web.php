@@ -70,11 +70,36 @@ Route::get('/music6', function () {
 Route::get('/music7', function () {
     return view('/FrontEnd/music7');
 })->name('music7');
+
+Route::get('/music8', function () {
+    return view('/FrontEnd/music8');
+})->name('music8');
+
+Route::get('/music9', function () {
+    return view('/FrontEnd/music9');
+})->name('music9');
+
+Route::get('/music10', function () {
+    return view('/FrontEnd/music10');
+})->name('music10');
+
+Route::get('/music11', function () {
+    return view('/FrontEnd/music11');
+})->name('music11');
+
+Route::get('/music12', function () {
+    return view('/FrontEnd/music12');
+})->name('music12');
+
+Route::get('/music13', function () {
+    return view('/FrontEnd/music13');
+})->name('music13');
+
 Route::get('/menu', function () {
     return view('/auth/register');
 })->name('register');
 
-Route::get("search", [SoundsController::class,'search']);
+
 
 
 
