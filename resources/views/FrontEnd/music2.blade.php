@@ -182,12 +182,12 @@
 </head>
 <body>
 <header class="nav">
-            <a href="#" class="logo">Sleepz</a>
+            <a href="home" class="logo">Sleepz</a>
             <ul>
-                <li><a href="#home.html" class="active nav">Home</a></li>
-                <li><a href="#music.html" class="nav">Music</a></li>
-                <li><a href="#about.html" class="nav">About</a></li>
-                <li><a href="#contact.html" class="nav">Contact</a></li>
+                <li><a href="home" class="nav">Home</a></li>
+                <li><a href="music" class="active nav">Music</a></li>
+                <li><a href="about" class="nav">About</a></li>
+                <li><a href="contact" class="nav">Contact</a></li>
             </ul>
         </header>
     <main>
@@ -212,7 +212,7 @@
             <footer class="ftSleep">
                 <div class="flex-container">
                   <div class="logo">
-                    <a href="#">Sleepz</a>
+                    <a href="home">Sleepz</a>
                   </div>
 
                   <div class="adress">
@@ -226,13 +226,13 @@
                   <div class="terms">
                     <ul>
                       <li>
-                        <a href="#music.html">Music</a>
+                        <a href="music">Music</a>
                       </li>
                       <li>
-                        <a href="#search.html">Search</a>
+                        <a href="search">Search</a>
                       </li>
                       <li>
-                        <a href="#contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                       </li>
                     </ul>
                   </div>

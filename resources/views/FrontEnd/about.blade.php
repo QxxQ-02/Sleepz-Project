@@ -215,11 +215,11 @@ audio {
 </head>
 <body>
 <header class="nav">
-        <a href="#" class="logo">Sleepz</a>
+        <a href="home" class="logo">Sleepz</a>
         <ul>
-            <li><a href="home" class="active nav">Home</a></li>
+            <li><a href="home" class="nav">Home</a></li>
             <li><a href="music" class="nav">Music</a></li>
-            <li><a href="about" class="nav">About</a></li>
+            <li><a href="about" class="active nav">About</a></li>
             <li><a href="contact" class="nav">Contact</a></li>
         </ul>
     </header>
@@ -265,13 +265,13 @@ audio {
               <div class="terms">
                 <ul>
                   <li>
-                    <a href="#">Music</a>
+                    <a href="music">Music</a>
                   </li>
                   <li>
-                    <a href="#">Search</a>
+                    <a href="search">Search</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="contact">Contact</a>
                   </li>
                 </ul>
               </div>
