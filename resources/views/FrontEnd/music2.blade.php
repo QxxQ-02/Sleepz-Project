@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style> 
       
         /* font family outside of css library */
@@ -89,17 +90,18 @@
             margin-top : 20%;
         }
         h1{
+            padding-top: 100px;
             text-align: center;
             opacity: 0.6;
             text-transform: uppercase;
         }
         .gallery{
-            display: flex;
+            display: grid;
             flex-wrap: wrap;
             width: 100%;
             justify-content: center;
-            float: left;
-            margin: 50px 0;
+            margin: 0 auto;
+            padding-top: 100px;
             margin-right: 50px;
             padding-right: 800px;
         }
@@ -108,14 +110,16 @@
             margin: 50px;
             height: 400px;
             box-sizing: border-box;
-
-            float: right;
+            float: left;
             border-radius: 30px;
             cursor: pointer;
             box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0, 0.22);
             transition: .4s;
             background: #f2f2f2;
 
+        }
+        .content-right{
+           padding-left: 800px;
         }
         .content:hover{
             box-shadow: 0 3px 6px rgba(0,0,0, 0.16), 
@@ -143,12 +147,15 @@
         footer{
             background: linear-gradient(#2b1055, #7597de);
             position: absolute;
+            width: 100%;
+            left: 0;
             color: #fff;
         }
 
         .flex-container{
             display: flex;
             margin: 20px 30px;
+            width: 100%;
         }
 
         .flex-container > div{
@@ -202,7 +209,7 @@
                     type="audio/mp3"/>
                </audio>
                 <div class="content-right">
-
+                <h1> Why is rain described as beautiful? </h1>
                 </div>
             </div>
     </main>

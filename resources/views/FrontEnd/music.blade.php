@@ -123,7 +123,7 @@ h1{
      0 3px 6px rgba(0,0,0, 0.23);
      transform: translate(0px, -8px);
  }
- img{
+ .pic1{
      width: 400px;
      height: 250px;
      border-radius: 5%;
@@ -198,46 +198,47 @@ h1{
          width: 100%;
      }
  }
+ /* footer */
+ footer{
+            background: linear-gradient(#2b1055, #7597de);
+            position: absolute;
+            width: 100%;
+            left: 0;
+            color: #fff;
+        }
 
-/* footer */
-footer{
-    background: linear-gradient(#2b1055, #7597de);
-   display: flex;
-    position: absolute;
-    color: #fff;
-}
-.flex-container{
-    display: flex;
-    margin: 20px 30px;
-}
+        .flex-container{
+            display: flex;
+            margin: 20px 30px;
+        }
 
-.flex-container > div{
-    margin: 10px;
-    padding: 40px;
-    color:#fff;
-    font-size: 1.1em;
-}
+        .flex-container > div{
+            margin: 10px;
+            padding: 40px;
+            color:#fff;
+            font-size: 1.1em;
+        }
 
-.ftSleep .flex-container .logo a{
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+        .ftSleep .flex-container .logo a{
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
-.ftSleep .flex-container .logo a,
-.ftSleep .flex-container .terms ul li a{
-    text-decoration: none;
-    color:#fff;
-}
+        .ftSleep .flex-container .logo a,
+        .ftSleep .flex-container .terms ul li a{
+            text-decoration: none;
+            color:#fff;
+        }
 
-.ftSleep .flex-container .image{
-    padding: 25px;
-}
+        .ftSleep .flex-container .image{
+            padding: 25px;
+        }
 
-.ftSleep .flex-container .copyright{
-    margin: 20px;
-    padding: 20px;
-}
+        .ftSleep .flex-container .copyright{
+            margin: 20px;
+            padding: 20px;
+        }
 audio {
     align-items: center;
 }
@@ -273,7 +274,8 @@ audio {
             <div class="content">
                 <!--FIRST PRODUCT-->
                 <ul>
-                  <li> <a href="music2" > <img src="https://i.pinimg.com/originals/7c/52/0d/7c520d69ba659d61af4ee3d533808895.gif">
+                  <li> <a href="music2" > 
+                    <img class= "pic1" src="https://i.pinimg.com/originals/7c/52/0d/7c520d69ba659d61af4ee3d533808895.gif">
                 </a></li>
                 </ul>
             </div>
@@ -281,7 +283,7 @@ audio {
             <div class="content">
             <ul>
                   <li> <a href="music3" > 
-                <img src="https://i.pinimg.com/originals/0b/77/77/0b7777810ef74eb40f38ffbfe6738365.gif">
+                <img class= "pic1" src="https://i.pinimg.com/originals/0b/77/77/0b7777810ef74eb40f38ffbfe6738365.gif">
             </a></li>
                 </ul>
             </div>
@@ -290,31 +292,31 @@ audio {
             <div class="content">
             <ul>
                   <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/38/ff/3c/38ff3c072ed6552324b1239785e6007a.gif">
+                <img class= "pic1" src="https://i.pinimg.com/originals/38/ff/3c/38ff3c072ed6552324b1239785e6007a.gif">
             </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/71/e7/48/71e748cc6fedc700240795d96c564652.gif">
+                  <li> <a href="music8" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/71/e7/48/71e748cc6fedc700240795d96c564652.gif">
             </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/da/c2/75/dac275a8c01fabcc5f1fd4b62749402e.gif">
+                  <li> <a href="music9" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/da/c2/75/dac275a8c01fabcc5f1fd4b62749402e.gif">
             </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/38/c4/a0/38c4a0b6bd425279a8f511b71c91dd49.gif">
+                  <li> <a href="music10" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/38/c4/a0/38c4a0b6bd425279a8f511b71c91dd49.gif">
             </a></li>
                 </ul>
             </div>
@@ -331,7 +333,7 @@ audio {
                 <!--FIRST PRODUCT-->
                 <ul>
                   <li> <a href="music5" > 
-                <img src="https://i.pinimg.com/originals/10/e1/a3/10e1a3615e04bfd6c264d6fcf9c50d33.gif">
+                <img class= "pic1" src="https://i.pinimg.com/originals/10/e1/a3/10e1a3615e04bfd6c264d6fcf9c50d33.gif">
                 </a></li>
                 </ul>
             </div>
@@ -339,7 +341,7 @@ audio {
             <div class="content">
             <ul>
                   <li> <a href="music6" > 
-                <img src="https://i.pinimg.com/originals/db/f0/1e/dbf01ebf3f34e47fd46b0fc72bf74b1d.gif">
+                <img class= "pic1" src="https://i.pinimg.com/originals/db/f0/1e/dbf01ebf3f34e47fd46b0fc72bf74b1d.gif">
                 </a></li>
                 </ul>
             </div>
@@ -348,31 +350,31 @@ audio {
             <div class="content">
             <ul>
                   <li> <a href="music7" > 
-                <img src="https://i.pinimg.com/originals/6c/e5/64/6ce56425ac57c137c1a8e333022a26be.gif">
+                <img class= "pic1" src="https://i.pinimg.com/originals/6c/e5/64/6ce56425ac57c137c1a8e333022a26be.gif">
                 </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/7d/07/a2/7d07a255678962d30d8717dcf5dbd266.gif">
+                  <li> <a href="music11" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/7d/07/a2/7d07a255678962d30d8717dcf5dbd266.gif">
             </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/00/9e/ae/009eaeb601c07d6a15e3d6eeefe3d6b4.gif">
+                  <li> <a href="music12" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/00/9e/ae/009eaeb601c07d6a15e3d6eeefe3d6b4.gif">
             </a></li>
                 </ul>
             </div>
 
             <div class="content">
             <ul>
-                  <li> <a href="music4" > 
-                <img src="https://i.pinimg.com/originals/1a/f6/89/1af689d42bdb7686df444f22925f9e89.gif">
+                  <li> <a href="music13" > 
+                <img class= "pic1" src="https://i.pinimg.com/originals/1a/f6/89/1af689d42bdb7686df444f22925f9e89.gif">
             </a></li>
                 </ul>
             </div>

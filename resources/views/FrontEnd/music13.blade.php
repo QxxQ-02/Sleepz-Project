@@ -197,7 +197,7 @@
         <div class="gallery">
             <div class="content-left">
                 <!--FIRST PRODUCT-->
-                <img  class="pic1" src="https://i.pinimg.com/originals/0b/77/77/0b7777810ef74eb40f38ffbfe6738365.gif">
+                <img  class="pic1" src="https://i.pinimg.com/originals/1a/f6/89/1af689d42bdb7686df444f22925f9e89.gif">
                 <audio controls class="audiplay"  style ="width:600px; padding-right: 10px; background: linear-gradient(#2b1055, #7597de);">
                     <source
                     src="record.mp3"
