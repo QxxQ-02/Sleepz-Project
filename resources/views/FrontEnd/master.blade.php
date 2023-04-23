@@ -172,11 +172,13 @@ section img#mountains_front{
     font-size: 1em;
     color: #fff;
 }
-
+/* footer */
 footer{
     background: linear-gradient(#2b1055, #7597de);
     position: absolute;
     color: #fff;
+    position: relative;
+    overflow: hidden;
 }
 
 .flex-container{
@@ -298,48 +300,48 @@ footer{
         </div>
 
         <div>
-            <footer class="ftSleep">
-                <div class="flex-container">
-                  <div class="logo">
-                    <a href="#">Sleepz</a>
-                  </div>
+        <footer class="ftSleep">
+            <div class="flex-container">
+              <div class="logo">
+                <a href="home">Sleepz</a>
+              </div>
 
-                  <div class="adress">
-                    <h5>Address</h5>
-                    <p>
-                      Sleep Method Organization, Ine Town,
-                      Kyoto City, Japan
-                    </p>
-                  </div>
+              <div class="adress">
+                <h5>Address</h5>
+                <p>
+                  Sleep Method Organization, Ine Town,
+                  Kyoto City, Japan
+                </p>
+              </div>
 
-                  <div class="terms">
-                    <ul>
-                      <li>
-                        <a href="#">Music</a>
-                      </li>
-                      <li>
-                        <a href="#">Search</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
+              <div class="terms">
+                <ul>
+                  <li>
+                    <a href="music">Music</a>
+                  </li>
+                  <li>
+                    <a href="search">Search</a>
+                  </li>
+                  <li>
+                    <a href="contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
 
-                  <div class="image">
-                    <p>
-                      <img
-                        src="https://img.freepik.com/premium-vector/anime-city-night-background_24640-79212.jpg"
-                        width="auto" height="300" style="border: 0" allowfullscreen="" loading="zzz"></img>
-                    </p>
-                  </div>
-                </div>
+              <div class="image">
+                <p>
+                  <img
+                    src="https://img.freepik.com/premium-vector/anime-city-night-background_24640-79212.jpg"
+                    width="auto" height="300" style="border: 0" allowfullscreen="" loading="zzz"></img>
+                </p>
+              </div>
+            </div>
 
-                <div class="copyright">
-                  <p>© 2023 Company, Inc. All rights reserved.</p>
-                </div>
-              </footer>
-        </div>
+            <div class="copyright">
+              <p>© 2023 Company, Inc. All rights reserved.</p>
+            </div>
+          </footer>
+    </div>
 
         <script>
             let stars = document.getElementById('star');

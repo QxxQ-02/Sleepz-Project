@@ -198,47 +198,47 @@ h1{
          width: 100%;
      }
  }
- /* footer */
- footer{
-            background: linear-gradient(#2b1055, #7597de);
-            position: absolute;
-            width: 100%;
-            left: 0;
-            color: #fff;
-        }
+/* footer */
+footer{
+    background: linear-gradient(#2b1055, #7597de);
+    position: absolute;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
 
-        .flex-container{
-            display: flex;
-            margin: 20px 30px;
-        }
+.flex-container{
+    display: flex;
+    margin: 20px 30px;
+}
 
-        .flex-container > div{
-            margin: 10px;
-            padding: 40px;
-            color:#fff;
-            font-size: 1.1em;
-        }
+.flex-container > div{
+    margin: 10px;
+    padding: 40px;
+    color:#fff;
+    font-size: 1.1em;
+}
 
-        .ftSleep .flex-container .logo a{
-            font-size: 2em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+.ftSleep .flex-container .logo a{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-        .ftSleep .flex-container .logo a,
-        .ftSleep .flex-container .terms ul li a{
-            text-decoration: none;
-            color:#fff;
-        }
+.ftSleep .flex-container .logo a,
+.ftSleep .flex-container .terms ul li a{
+    text-decoration: none;
+    color:#fff;
+}
 
-        .ftSleep .flex-container .image{
-            padding: 25px;
-        }
+.ftSleep .flex-container .image{
+    padding: 25px;
+}
 
-        .ftSleep .flex-container .copyright{
-            margin: 20px;
-            padding: 20px;
-        }
+.ftSleep .flex-container .copyright{
+    margin: 20px;
+    padding: 20px;
+}
 audio {
     align-items: center;
 }
@@ -401,12 +401,11 @@ audio {
     });
     </script>
 
-    
-    <div>
+<div>
         <footer class="ftSleep">
             <div class="flex-container">
               <div class="logo">
-                <a href="home">Sleep</a>
+                <a href="home">Sleepz</a>
               </div>
 
               <div class="adress">
