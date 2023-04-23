@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Music</title>
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.ap.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -249,7 +249,7 @@ audio {
         <ul> 
         <li>  <div class ="search" > 
                 <form action="/search" method ="get" class= "search-bar">  
-                    <input type = "text" placeholder ="rain" name= "q" >
+                    <input type = "text" placeholder ="Search for sound" name= "query" >
                     <button type = "submit" > 
                     <i class="fa-solid fa-magnifying-glass" style="font-size: 25px"></i>
                     </button>
@@ -445,3 +445,4 @@ audio {
     </div>
 </body>
 </html>
+ <!--Database Connection-->  

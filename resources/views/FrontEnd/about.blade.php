@@ -10,12 +10,21 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 30px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* body */
+main{
+    position: relative;
+    margin: 50px;
+    padding: 100px;
+    background-color: (rgba(89, 89, 133, 0.3),rgba(118, 78, 131, 0.543) );
+    
+
+}
+
 /* header part */
 header{
     background: linear-gradient(#2b1055, #7597de);
@@ -92,6 +101,7 @@ image-section music{
     height: auto;
 }
 .content-section .title{
+    margin-top: 60px;
     text-transform: uppercase;
     font-size: 28px;
 }
@@ -122,7 +132,7 @@ image-section music{
     color: #fff;
 }
 .content-section .social{
-    margin: 40px 10px;
+    margin: 40px 30px;
 }
 .content-section .social i{
     color: #a52a2a;
@@ -238,9 +248,8 @@ audio {
                 </div>
                 <div class="social">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-spotify"></i></a>
                     <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-telegram"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="image-section">
@@ -248,48 +257,49 @@ audio {
             </div>
         </div>
     </div>
-    <footer class="ftSleep">
-            <div class="flex-container">
-              <div class="logo">
-                <a href="#">Sleep</a>
-              </div>
+    <div>
+            <footer class="ftSleep">
+                <div class="flex-container">
+                  <div class="logo">
+                    <a href="#">Sleepz</a>
+                  </div>
 
-              <div class="adress">
-                <h5>Address</h5>
-                <p>
-                  Sleep Method Organization, Ine Town,
-                  Kyoto City, Japan
-                </p>
-              </div>
+                  <div class="adress">
+                    <h5>Address</h5>
+                    <p>
+                      Sleep Method Organization, Ine Town,
+                      Kyoto City, Japan
+                    </p>
+                  </div>
 
-              <div class="terms">
-                <ul>
-                  <li>
-                    <a href="music">Music</a>
-                  </li>
-                  <li>
-                    <a href="search">Search</a>
-                  </li>
-                  <li>
-                    <a href="contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                  <div class="terms">
+                    <ul>
+                      <li>
+                        <a href="#">Music</a>
+                      </li>
+                      <li>
+                        <a href="#">Search</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
 
-              <div class="image">
-                <p>
-                  <img
-                    src="https://img.freepik.com/premium-vector/anime-city-night-background_24640-79212.jpg"
-                    width="auto" height="300" style="border: 0" allowfullscreen="" loading="zzz"></img>
-                </p>
-              </div>
-            </div>
+                  <div class="image">
+                    <p>
+                      <img
+                        src="https://img.freepik.com/premium-vector/anime-city-night-background_24640-79212.jpg"
+                        width="auto" height="300" style="border: 0" allowfullscreen="" loading="zzz"></img>
+                    </p>
+                  </div>
+                </div>
 
-            <div class="copyright">
-              <p>© 2023 Company, Inc. All rights reserved.</p>
-            </div>
-          </footer>
-    </div>
+                <div class="copyright">
+                  <p>© 2023 Company, Inc. All rights reserved.</p>
+                </div>
+              </footer>
+        </div>
 
 </body>
 </html>

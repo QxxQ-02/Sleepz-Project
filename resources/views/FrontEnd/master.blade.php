@@ -263,7 +263,7 @@ footer{
         <header class="nav">
             <a href="#" class="logo">Sleepz</a>
             <ul>
-                <li><a href="home" class=" nav">Home</a></li>
+                <li><a href="home" class="active nav">Home</a></li>
                 <li><a href="music" class="nav">Music</a></li>
                 <li><a href="about" class="nav">About</a></li>
                 <li><a href="contact" class="nav">Contact</a></li>
