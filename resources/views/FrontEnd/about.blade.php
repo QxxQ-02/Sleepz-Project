@@ -240,8 +240,8 @@ footer{
                     <h1>About Us</h1>
                 </div>
                 <div class="content">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ullam. Quas, sapiente non odit similique odio laboriosam corporis ea aliquid inventore autem, doloribus ullam atque repellendus maxime doloremque impedit molestias.</p>
+                    <h3>We are here to help you overcome insomnia.</h3>
+                    <p>SleepZ is a platform used to help people with sleeping difficulty. Our purpose is to provide relaxing and peaceful sound for user to listen when they go to bed.</p>
                     <div class="button">
                         <a href="">Read More</a>
                     </div>
